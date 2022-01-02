@@ -1,0 +1,67 @@
+h1{
+    color:#fff;
+    text-align: center;
+    padding: 35px;
+}
+h5{
+    color: #262626;
+    text-align: center;
+}
+p{
+    color:#262626;
+    font-size: 20px;
+}
+.background{
+    background-color: #262626;
+}
+.first-p{
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+  .column img:hover {
+    filter: grayscale(0);
+  }
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .column img {
+      filter: grayscale(0) brightness(1);
+    }
+  }
+.contact-image{
+    height: 30px;
+}
+.myClass{
+    text-decoration: none;
+}
